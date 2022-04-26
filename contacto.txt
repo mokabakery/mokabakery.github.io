@@ -1,0 +1,69 @@
+<html>
+      <head>
+	  <title>
+	  MOKABAKERY-contacto
+	  </title>
+	  <link rel="shorcut icon" href="logo.png"
+	  </head>
+	     <body background="fondo.png">
+		 <hr>
+		 <br>
+		 <br>
+		 <table align="center" border="2" width="90%"
+		 border color="black">
+		 <form>
+		 <table align="center">
+	 <tr>
+	 <td>
+		 <label>Nombre:</label>
+		 <input type="text" size="50" name="nombre" id="nombre"></input>
+	</td>
+	</tr>
+    <tr>
+    <td>
+        <label>Asunto:</label>
+	     <input type="text" size="20" name="asunto" id="asunto"></input>
+	</td>
+    </tr>
+	<tr>
+    <td>
+        <label>Correo:</label>
+	     <input type="text" size="51" name="correo" id="correo"></input>
+	</td>
+	</tr>   
+    <th>
+        <label>mensaje:</label>
+	     <textarea rows="10" cols="30" name="mensaje" id="mensaje">
+		 </textarea>
+	</th>
+	</tr>
+	<tr>
+	    <td>
+		<input type="submit"
+		value="enviar">
+		<input type="reset"
+	    </td>
+		</tr>
+		<td align="center"><A href="principal.html">
+                    <img src=principal.png></A></td>
+         		 <td align="center"><A href="historia.html">
+                    <img src=historia.png></A></td>			
+	             <td align="center"><A href="contacto.html">
+                    <img src=productos.png></A></td>
+				 <td align="center"><A href="video.html">
+                    <img src=contacto.png></A></td>	
+	             <b>
+            &copy; 2022. Derechos reservados<br>
+			Desarrollado por Pamela Moreno Urueta 
+			Matricula:01905002
+			Grupo:605<br>
+			Plantel Nueva Tijuana
+            </b>
+</table>
+</form>
+<br>
+<br>
+<table align="center" border="0" width="90"
+cellpadding="0" cellspacing="0">
+</html>		
+		

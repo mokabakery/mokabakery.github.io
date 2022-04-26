@@ -1,0 +1,240 @@
+body{
+background:#F2D7D5;
+}
+h1{
+color: #pink;
+font-family: arial;
+font-size: 50px;
+text-align: center;
+}
+p{
+color: #pink;
+font-family: time new roman;
+font-size: 10px;
+text-align: center;
+font-weight: bold;
+font-style: italic;
+}
+.pri{
+	width: 200;
+	height:200;
+	}
+.pri1{
+	width: 400;
+	height:150;
+}
+.pri2{
+	width: 250;
+	height:200;
+}
+.pri3{
+	width: 100;
+	height:100;
+}
+/*Esta apartado es para encajonar el encabezado de la pagina principal*/
+.div1{
+background:#F2D7D5;
+border:2;
+border-radius:10px;
+border-style:solid;
+border-color:#0B2161;
+margin: 6 auto;
+height:13%;
+width:100%;
+display:inline-block;
+}
+.div2{
+background:#F2D7D5;
+border:2;
+border-radius:10px;
+border-style:solid;
+border-color:#0B2161;
+margin: 6 auto;
+height:13%;
+width:100%;
+}
+/*este apartado es para las tablas de botones de hipervinculo*/
+.sin{
+margin:5 auto;
+border-style:transparent;
+border:0;
+background-color: transparent;
+height:30%;
+width:90%;
+}
+/*este apartado es para cada una de las tablas de la pagina de historia*/
+h3{
+font-family:arial;
+color:#pink;
+font-size:30px;
+text-align:center;
+}
+.tablesh{
+color: #F2D7D5;
+font-family: arial;
+font-size: 25px;
+text-align: left;
+font-weight: bold;
+height: 20%;
+width: 90%;
+background-color:#pink;
+margin:2 auto;
+}
+/*este apartado es para la tabla de productos*/
+.tablep{
+margin:3 auto;
+height: 90%;
+width: 90%;
+border-color: #000000;
+border:2;
+border-style: solid;
+border-collapse:collapse;
+}
+.renglon{
+margin:3 auto;
+background-color:#F2D7D5;
+font-family:arial;
+font-size: 25px;
+text-align: center;
+color:#pink;
+font-weight: bold;
+height: 90%;
+width: 90%;
+border-color: #000000;
+border:2;
+border-style: solid;
+border-collapse:collapse;
+}
+.bordes1{
+border-style: solid;
+border:2;
+border-color: #311601;
+background-color:#0B2161;
+}
+.columna{
+border-style: solid;
+border:2;
+border-color: #311601;
+background-color:#DF0101;
+}
+.fonybor{
+border-style: solid;
+border:2;
+border-color: #311601;
+background-color:#FFFFFF;
+color:#000000;
+}
+/*Esta clase es para la tabla de contacto*/
+.contac{
+margin: 5 auto;
+border-collapse: collapse;
+color: #F2D7D5;
+font-family:times new roman;
+font-size: 25px;
+color:#0B2161;
+text-align: left;
+font-weight: bold;
+height: 25%;
+width: 27%;
+border-color: #311601;
+border:2;
+border-style: solid;
+}
+.caja{
+height: 300px;
+width: 250px;
+background:#CB4335;
+border:1px solid #52BE80;
+margin:5px;
+color:black;
+text-align:center;
+font-family:"arial";
+display:inline-block;
+}
+.caja:hover{
+/*Agregar sombra al div*/
+/*        x y radio color*/
+box-shadow:0 0 10px blue;
+/*Cambia la escala de tamaño de la caja*/
+transform: scale(1.3);
+}
+.caja-texto{
+padding-bottom:5px;
+padding-top:2px;
+font-size:30px;
+color: black;
+font-weight:bold;
+}
+.texto-adicional{
+padding-bottom:5px;
+padding-top:2px;
+font-size:30px;
+color: black;
+font-weight:bold;
+}
+
+.div-productos{
+        background:#D8D8D8;
+border:2;
+border-radius: 10px;
+border-style:solid;
+border-color:#D8D8D8;
+margin: 6 auto;
+height: 100%;
+width:100%;
+}
+/*este apartado es para el tipo de fuente*/
+@font-face{
+     font-family:"mifuente";
+	 src: url(mi-fuente.ttf);
+}
+#fuente-audio{
+	font-family:"mifuente";
+}
+.contenedor{
+display:flex;
+}
+.div5{
+background:#F2D7D5;
+height:180px;
+width:450px;
+display:inline-block;
+transition:all 1s;
+transition-timing-function:ease;
+	}
+.div5:hover{
+width:900px;
+}
+.div6{
+background:#BLUE;
+height:180px;
+width:450px;
+display:inline-block;
+transition:all 1s;
+transition-timing-function:ease;
+	}
+.div6:hover{
+width:900px;
+}
+.div7{
+background:#PURPLE;
+height:180px;
+width:450px;
+display:inline-block;
+transition:all 1s;
+transition-timing-function:ease;
+	}
+.div7:hover{
+width:900px;
+}
+.div8{
+background:#RED;
+height:180px;
+width:450px;
+display:inline-block;
+transition:all 1s;
+transition-timing-function:ease;
+	}
+.div8:hover{
+width:900px;
+}
